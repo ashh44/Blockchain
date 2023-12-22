@@ -125,7 +125,7 @@ contract ArbitrageOpportunityDetector is ChainlinkClient {
                 temp /= 10;
             }
 
-            // Use abi.encodePacked to concatenate the strings
+            // Used abi.encodePacked to concatenate the strings
             return string(abi.encodePacked("Off-chain data: ETH/USD Price - ", string(result)));
         }
     }
